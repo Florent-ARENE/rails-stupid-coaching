@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <h1>Stupid Coaching</h1>
+    <h2 class="borderleft"><%= params[:question] %></h2>
+    <p class="borderleft answer"><%= @answer %></p>
+    <%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+  </div>
+</div>
